@@ -21,7 +21,6 @@ public class App {
             } else {
                 System.out.println("Same customer");
                 obj = (Customer) ((Customer) (cusarr[cuscount - 1])).clone();
-                cusarr[cuscount++] = obj;
             }
             System.out.println("Enter the complaint");
             String complaint = input.nextLine();

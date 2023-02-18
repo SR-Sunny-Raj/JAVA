@@ -8,7 +8,6 @@ public class App {
         int count = 0, cuscount = 0;
         Customer obj = null;
         while (true) {
-            // input.nextLine();
             System.out.println("Enter the customer name");
             String name = input.nextLine();
             if (!name.equals("")) {
@@ -34,7 +33,6 @@ public class App {
                 input.nextLine();
                 continue;
             } else {
-                // input.nextLine();
                 break;
             }
         }

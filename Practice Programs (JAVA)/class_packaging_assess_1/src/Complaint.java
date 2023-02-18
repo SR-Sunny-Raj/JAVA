@@ -11,7 +11,6 @@ public class Complaint {
 
     Complaint(String complaint, Customer customer) {
         this.complaint = complaint;
-        // Customer customer1 = new Customer();
         this.customer = customer;
     }
 

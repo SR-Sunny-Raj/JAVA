@@ -36,7 +36,8 @@ public class App {
         Date d2 = sdf.parse(end);
         long diff_time = d2.getTime() - d1.getTime();
 
-        int diff_date = (int) ((diff_time / (1000 * 60 * 60 * 24)) % 365);
+        // int diff_date = (int) ((diff_time / (1000 * 60 * 60 * 24)) % 365);
+        long diff_date = diff_time / 86400000;
 
         if (type == 1) {
             Exhibition obj = new Exhibition(arr[0], arr[1], arr[2], arr[3], d, num);
